@@ -1,0 +1,75 @@
+header{
+    display: flex;
+    padding: 30px;
+    background: linear-gradient(to right , #012E40, #3CA6A6);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    padding-left: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+header .favoritos{
+    margin-right: 60px;
+    text-decoration: none;
+    background-color: white;
+    padding: 9.5px;
+    border-radius: 6px;
+    font-weight: 900;
+    color: black;
+    transition: 0.3s;
+}
+
+header .favoritos:hover{
+    background-color: #012E40;
+    color: white;
+}
+
+.blocodireita{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.blocodireita input{
+    padding: 11px;
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+    background-color: #012E40;
+    width: 700px;
+    outline: none;
+}
+
+.blocodireita button{
+    padding: 11px;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    background-color: 012E40;
+}
+.blocodireita button:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 761px) and (max-width: 1025px){
+    header{
+        background: linear-gradient(to right , #000000, #7bff00);
+        color: black;
+    }  
+
+    header .favoritos{
+        display: none;
+    }
+}
+
+@media (min-width: 380px){
+    header{
+        background-color: beige;
+        color: black;
+    } 
+}

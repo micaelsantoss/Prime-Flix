@@ -1,0 +1,56 @@
+.favoritos span{
+    color: white;
+}
+
+.favoritos h1{
+    color: white;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#012e40;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.favoritos-lista{ 
+    width: 90%;
+    margin: auto; 
+}
+
+.favoritos-lista img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.conteudo .info{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.conteudo .info a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo .info button{
+    border: none;
+    margin-right: 50px;
+    background-color: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.conteudo .info button:hover{
+    cursor: pointer;
+}
